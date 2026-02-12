@@ -3,21 +3,14 @@
   "displayName": "Facebook",
   "handle": "AlsoKal",
   "url": "https://www.facebook.com/alsokal",
-  "snapshotDate": "2026-02-10",
-  "followers": 8000,
-  "followersDelta": 180,
-  "totalViews": 2450000,
-  "engagementRate": 2.9,
-  "postsCount": 312,
-  "avgViewsPerPost": 7850,
-  "avgLikesPerPost": 145,
-  "avgCommentsPerPost": 28,
-  "history": [
-    { "date": "2025-09-01", "followers": 6900, "views": 1820000 },
-    { "date": "2025-10-01", "followers": 7100, "views": 1960000 },
-    { "date": "2025-11-01", "followers": 7350, "views": 2080000 },
-    { "date": "2025-12-01", "followers": 7560, "views": 2200000 },
-    { "date": "2026-01-01", "followers": 7820, "views": 2340000 },
-    { "date": "2026-02-01", "followers": 8000, "views": 2450000 }
-  ]
+  "snapshotDate": "2026-02-11",
+  "followers": 0,
+  "followersDelta": 0,
+  "totalViews": 0,
+  "engagementRate": 0,
+  "postsCount": 0,
+  "avgViewsPerPost": 0,
+  "avgLikesPerPost": 0,
+  "avgCommentsPerPost": 0,
+  "history": []
 }

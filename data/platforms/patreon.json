@@ -3,22 +3,15 @@
   "displayName": "Patreon",
   "handle": "AlsoKal",
   "url": "https://www.patreon.com/alsokal",
-  "snapshotDate": "2026-02-10",
+  "snapshotDate": "2026-02-11",
   "followers": 226,
-  "followersDelta": 8,
-  "totalViews": 42800,
-  "engagementRate": 18.6,
+  "followersDelta": 0,
+  "totalViews": 0,
+  "engagementRate": 0,
   "postsCount": 503,
-  "avgViewsPerPost": 85,
-  "avgLikesPerPost": 12,
-  "avgCommentsPerPost": 4,
+  "avgViewsPerPost": 0,
+  "avgLikesPerPost": 0,
+  "avgCommentsPerPost": 0,
   "paidMembers": 14,
-  "history": [
-    { "date": "2025-09-01", "followers": 189, "views": 34200 },
-    { "date": "2025-10-01", "followers": 198, "views": 36100 },
-    { "date": "2025-11-01", "followers": 206, "views": 37800 },
-    { "date": "2025-12-01", "followers": 212, "views": 39400 },
-    { "date": "2026-01-01", "followers": 218, "views": 41000 },
-    { "date": "2026-02-01", "followers": 226, "views": 42800 }
-  ]
+  "history": []
 }

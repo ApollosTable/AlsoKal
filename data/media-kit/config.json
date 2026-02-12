@@ -9,20 +9,17 @@
     "instagram": "https://www.instagram.com/kal.bog",
     "youtube": "https://www.youtube.com/@alsokal",
     "snapchat": "https://www.snapchat.com/add/kal.bog",
-    "facebook": "https://www.facebook.com/alsokal",
     "patreon": "https://www.patreon.com/alsokal"
   },
   "highlightMetrics": [
-    { "label": "Total Audience", "value": "263,500+" },
+    { "label": "Total Audience", "value": "246,000+" },
     { "label": "Instagram Followers", "value": "176,000" },
     { "label": "TikTok Followers", "value": "40,800" },
-    { "label": "TikTok Total Likes", "value": "762,800" },
     { "label": "Snapchat Subscribers", "value": "23,700" },
-    { "label": "YouTube Subscribers", "value": "15,000" },
-    { "label": "Avg Instagram Reel Views", "value": "37,800" },
-    { "label": "Avg TikTok Views", "value": "38,400" },
-    { "label": "Instagram Engagement Rate", "value": "4.2%" },
-    { "label": "TikTok Engagement Rate", "value": "6.8%" }
+    { "label": "YouTube Subscribers", "value": "5,430" },
+    { "label": "Patreon Members", "value": "226" },
+    { "label": "YouTube Total Views", "value": "1,498,297" },
+    { "label": "Platforms Active", "value": "6+" }
   ],
   "demographics": {
     "ageRanges": [
@@ -55,7 +52,7 @@
     },
     {
       "name": "Multi-Platform Bundle",
-      "description": "Coordinated campaign across 3-4 platforms (Instagram Reel + TikTok + Story Series + Facebook). Consistent messaging with platform-native creative for each. Best value per impression.",
+      "description": "Coordinated campaign across 3-4 platforms (Instagram Reel + TikTok + Story Series). Consistent messaging with platform-native creative for each. Best value per impression.",
       "startingAt": "$1,200"
     },
     {
@@ -74,10 +71,5 @@
       "startingAt": "$500"
     }
   ],
-  "pastPartners": [
-    { "name": "Coleman Outdoors", "result": "42K combined Reel views, 3.8% engagement rate" },
-    { "name": "Thousand Trails", "result": "23 promo code redemptions, 28K Reel views" },
-    { "name": "GoSun", "result": "Campaign in progress - TikTok video at 18K views in first week" },
-    { "name": "Bluetti Power", "result": "Campaign in progress" }
-  ]
+  "pastPartners": []
 }
