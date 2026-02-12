@@ -1,65 +1,87 @@
-import Image from "next/image";
+import { loadAllPlatforms, loadRevenue, loadPartnerships, loadCalendar, loadInquiries, loadGoals } from "@/lib/data/loader";
+import { PLATFORM_CONFIG, formatCurrency, ANNUAL_REVENUE_TARGET } from "@/lib/constants";
+import { RevenueGoal } from "@/components/dashboard/revenue-goal";
+import { StatCard } from "@/components/dashboard/stat-card";
+import { PipelineSummary } from "@/components/dashboard/pipeline-summary";
+import { UpcomingContent } from "@/components/dashboard/upcoming-content";
+import { ActionItems } from "@/components/dashboard/action-items";
 
-export default function Home() {
+export default function DashboardPage() {
+  const platforms = loadAllPlatforms();
+  const revenue = loadRevenue();
+  const partnerships = loadPartnerships();
+  const calendar = loadCalendar();
+  const inquiries = loadInquiries();
+  const goals = loadGoals();
+
+  const totalEarned = revenue
+    .filter((e) => e.status === "paid")
+    .reduce((sum, e) => sum + e.amount, 0);
+
+  // Monthly revenue
+  const currentMonth = new Date().getMonth();
+  const monthlyRevenue = revenue
+    .filter((e) => new Date(e.date).getMonth() === currentMonth)
+    .reduce((sum, e) => sum + e.amount, 0);
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+    <div className="space-y-6 p-6">
+      <div>
+        <h1 className="font-heading text-3xl">dashboard</h1>
+        <p className="text-sm text-muted-foreground">
+          Welcome back. Here&apos;s how the business is doing.
+        </p>
+      </div>
+
+      {/* Revenue Goal */}
+      <RevenueGoal earned={totalEarned} target={goals.annualRevenueTarget} />
+
+      {/* Platform Stats */}
+      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-7">
+        {platforms.map((p) => {
+          const config = PLATFORM_CONFIG[p.platform as keyof typeof PLATFORM_CONFIG];
+          if (!config) return null;
+          return (
+            <StatCard
+              key={p.platform}
+              label={config.name}
+              value={p.followers}
+              delta={p.followersDelta}
+              color={config.color}
+              sparklineData={p.history.map((h) => ({ value: h.followers }))}
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+          );
+        })}
+      </div>
+
+      {/* Monthly Revenue + Pipeline */}
+      <div className="grid gap-6 lg:grid-cols-2">
+        <div className="grid gap-4 sm:grid-cols-2">
+          <StatCard
+            label="This Month"
+            value={formatCurrency(monthlyRevenue)}
+            formatValue={false}
+            color="#6bd9c5"
+          />
+          <StatCard
+            label="YTD Revenue"
+            value={formatCurrency(totalEarned)}
+            formatValue={false}
+            color="#7C9A82"
+          />
         </div>
-      </main>
+        <PipelineSummary partnerships={partnerships} />
+      </div>
+
+      {/* Content + Actions */}
+      <div className="grid gap-6 lg:grid-cols-2">
+        <UpcomingContent items={calendar} />
+        <ActionItems
+          partnerships={partnerships}
+          calendar={calendar}
+          inquiries={inquiries}
+        />
+      </div>
     </div>
   );
 }

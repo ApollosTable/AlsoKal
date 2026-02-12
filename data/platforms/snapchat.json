@@ -1,0 +1,23 @@
+{
+  "platform": "snapchat",
+  "displayName": "Snapchat",
+  "handle": "@kal.bog",
+  "url": "https://www.snapchat.com/add/kal.bog",
+  "snapshotDate": "2026-02-10",
+  "followers": 23700,
+  "followersDelta": 870,
+  "totalViews": 8920000,
+  "engagementRate": 7.4,
+  "postsCount": 1840,
+  "avgViewsPerPost": 4850,
+  "avgLikesPerPost": 310,
+  "avgCommentsPerPost": 18,
+  "history": [
+    { "date": "2025-09-01", "followers": 18600, "views": 6340000 },
+    { "date": "2025-10-01", "followers": 19800, "views": 6820000 },
+    { "date": "2025-11-01", "followers": 20900, "views": 7350000 },
+    { "date": "2025-12-01", "followers": 21800, "views": 7840000 },
+    { "date": "2026-01-01", "followers": 22830, "views": 8380000 },
+    { "date": "2026-02-01", "followers": 23700, "views": 8920000 }
+  ]
+}

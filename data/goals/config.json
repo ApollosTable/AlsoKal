@@ -1,0 +1,159 @@
+{
+  "annualRevenueTarget": 100000,
+  "quarterlyTargets": {
+    "q1": 15000,
+    "q2": 25000,
+    "q3": 30000,
+    "q4": 30000
+  },
+  "platformTargets": [
+    { "platform": "tiktok", "targetFollowers": 100000, "targetDate": "2026-12-31" },
+    { "platform": "instagram", "targetFollowers": 300000, "targetDate": "2026-12-31" },
+    { "platform": "youtube", "targetFollowers": 50000, "targetDate": "2026-12-31" },
+    { "platform": "snapchat", "targetFollowers": 50000, "targetDate": "2026-12-31" },
+    { "platform": "facebook", "targetFollowers": 15000, "targetDate": "2026-12-31" },
+    { "platform": "patreon", "targetFollowers": 500, "targetDate": "2026-12-31" }
+  ],
+  "milestones": [
+    {
+      "id": "ms-001",
+      "title": "Hit 50K TikTok followers",
+      "targetDate": "2026-04-30",
+      "completed": false
+    },
+    {
+      "id": "ms-002",
+      "title": "Hit 200K Instagram followers",
+      "targetDate": "2026-05-31",
+      "completed": false
+    },
+    {
+      "id": "ms-003",
+      "title": "Land first $1,000+ brand deal",
+      "targetDate": "2026-03-31",
+      "completed": false
+    },
+    {
+      "id": "ms-004",
+      "title": "Reach 100 paid Patreon members",
+      "targetDate": "2026-09-30",
+      "completed": false
+    },
+    {
+      "id": "ms-005",
+      "title": "YouTube monetization (1K subs + 4K watch hours)",
+      "targetDate": "2025-06-30",
+      "completed": true
+    },
+    {
+      "id": "ms-006",
+      "title": "First brand deal over $500",
+      "targetDate": "2026-01-31",
+      "completed": true
+    },
+    {
+      "id": "ms-007",
+      "title": "Launch merch store",
+      "targetDate": "2025-11-15",
+      "completed": true
+    },
+    {
+      "id": "ms-008",
+      "title": "Earn $5K in a single month",
+      "targetDate": "2026-06-30",
+      "completed": false
+    },
+    {
+      "id": "ms-009",
+      "title": "Secure a 3+ month ambassador deal",
+      "targetDate": "2026-06-30",
+      "completed": false
+    },
+    {
+      "id": "ms-010",
+      "title": "Hit 25K YouTube subscribers",
+      "targetDate": "2026-08-31",
+      "completed": false
+    },
+    {
+      "id": "ms-011",
+      "title": "Create and sell a digital product (skoolie conversion guide)",
+      "targetDate": "2026-07-31",
+      "completed": false
+    },
+    {
+      "id": "ms-012",
+      "title": "Earn $100K cumulative for the year",
+      "targetDate": "2026-12-31",
+      "completed": false
+    }
+  ],
+  "rateCard": [
+    {
+      "contentType": "Instagram Reel",
+      "platform": "instagram",
+      "rate": 500,
+      "notes": "30-60 second Reel with 1 product feature. Includes 1 round of revisions."
+    },
+    {
+      "contentType": "Instagram Story Series",
+      "platform": "instagram",
+      "rate": 300,
+      "notes": "3-5 Story frames. Swipe-up link included. 24-hour lifespan + saved to Highlights."
+    },
+    {
+      "contentType": "Instagram Carousel Post",
+      "platform": "instagram",
+      "rate": 400,
+      "notes": "Up to 10 slides, educational or product-focused."
+    },
+    {
+      "contentType": "TikTok Video",
+      "platform": "tiktok",
+      "rate": 350,
+      "notes": "30-90 second native TikTok video. Trending audio when applicable."
+    },
+    {
+      "contentType": "YouTube Short",
+      "platform": "youtube-shorts",
+      "rate": 300,
+      "notes": "Sub-60 second vertical video. Cross-posted from TikTok/Reels available at discount."
+    },
+    {
+      "contentType": "YouTube Long-Form Integration",
+      "platform": "youtube-long",
+      "rate": 800,
+      "notes": "2-3 minute dedicated segment within a longer video (8-15 min). Includes product demo."
+    },
+    {
+      "contentType": "YouTube Dedicated Video",
+      "platform": "youtube-long",
+      "rate": 1500,
+      "notes": "Full 8-15 minute video dedicated to brand/product. Includes review, demo, and CTA."
+    },
+    {
+      "contentType": "Facebook Post/Reel",
+      "platform": "facebook",
+      "rate": 200,
+      "notes": "Cross-post from Instagram Reel or original Facebook content."
+    },
+    {
+      "contentType": "Snapchat Story Takeover",
+      "platform": "snapchat",
+      "rate": 250,
+      "notes": "Full day of Snapchat Stories featuring product in daily life context."
+    },
+    {
+      "contentType": "Multi-Platform Bundle",
+      "platform": "all",
+      "rate": 1200,
+      "notes": "1 Reel + 1 TikTok + 1 Story Series + 1 Facebook cross-post. Best value for brands."
+    },
+    {
+      "contentType": "UGC / Whitelisting Rights",
+      "platform": "all",
+      "rate": 250,
+      "notes": "Add-on: brand can use content in their own ads for 30 days. 90-day license available at $500."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "platform": "youtube-long",
+  "displayName": "YouTube Long-Form",
+  "handle": "@alsokal",
+  "url": "https://www.youtube.com/@alsokal",
+  "snapshotDate": "2026-02-10",
+  "followers": 15000,
+  "followersDelta": 620,
+  "totalViews": 1870000,
+  "engagementRate": 3.8,
+  "postsCount": 67,
+  "avgViewsPerPost": 27900,
+  "avgLikesPerPost": 720,
+  "avgCommentsPerPost": 94,
+  "history": [
+    { "date": "2025-09-01", "followers": 11200, "views": 1340000 },
+    { "date": "2025-10-01", "followers": 12000, "views": 1430000 },
+    { "date": "2025-11-01", "followers": 12800, "views": 1540000 },
+    { "date": "2025-12-01", "followers": 13500, "views": 1640000 },
+    { "date": "2026-01-01", "followers": 14380, "views": 1750000 },
+    { "date": "2026-02-01", "followers": 15000, "views": 1870000 }
+  ]
+}

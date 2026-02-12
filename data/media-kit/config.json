@@ -1,0 +1,83 @@
+{
+  "creatorName": "Kal Bogdzewic",
+  "tagline": "Family life on wheels. Skoolie adventures, DIY builds, and raising kids off the grid.",
+  "bio": "We're the Bogdzewic family and we live full-time in a converted school bus (skoolie) traveling across North America. I'm Kal, and I document our journey of raising a family on the road -- the beautiful sunsets AND the frozen water tanks at 3am. From skoolie conversion tutorials and van life tips to honest looks at what it really takes to live mobile with kids, our content resonates with anyone who's dreamed of trading the mortgage for the open road. We've been on the road for over two years and have built a passionate community of families, aspiring nomads, and DIY enthusiasts who follow along for the real, unfiltered version of alternative living.",
+  "heroImage": "/images/media-kit/hero-skoolie-sunset.jpg",
+  "profileImage": "/images/media-kit/kal-profile.jpg",
+  "socialLinks": {
+    "tiktok": "https://www.tiktok.com/@alsokal",
+    "instagram": "https://www.instagram.com/kal.bog",
+    "youtube": "https://www.youtube.com/@alsokal",
+    "snapchat": "https://www.snapchat.com/add/kal.bog",
+    "facebook": "https://www.facebook.com/alsokal",
+    "patreon": "https://www.patreon.com/alsokal"
+  },
+  "highlightMetrics": [
+    { "label": "Total Audience", "value": "263,500+" },
+    { "label": "Instagram Followers", "value": "176,000" },
+    { "label": "TikTok Followers", "value": "40,800" },
+    { "label": "TikTok Total Likes", "value": "762,800" },
+    { "label": "Snapchat Subscribers", "value": "23,700" },
+    { "label": "YouTube Subscribers", "value": "15,000" },
+    { "label": "Avg Instagram Reel Views", "value": "37,800" },
+    { "label": "Avg TikTok Views", "value": "38,400" },
+    { "label": "Instagram Engagement Rate", "value": "4.2%" },
+    { "label": "TikTok Engagement Rate", "value": "6.8%" }
+  ],
+  "demographics": {
+    "ageRanges": [
+      { "range": "13-17", "percentage": 4 },
+      { "range": "18-24", "percentage": 22 },
+      { "range": "25-34", "percentage": 38 },
+      { "range": "35-44", "percentage": 24 },
+      { "range": "45-54", "percentage": 8 },
+      { "range": "55+", "percentage": 4 }
+    ],
+    "genderSplit": [
+      { "gender": "Female", "percentage": 65 },
+      { "gender": "Male", "percentage": 32 },
+      { "gender": "Non-binary / Other", "percentage": 3 }
+    ],
+    "topLocations": [
+      { "location": "United States", "percentage": 72 },
+      { "location": "Canada", "percentage": 12 },
+      { "location": "United Kingdom", "percentage": 5 },
+      { "location": "Australia", "percentage": 4 },
+      { "location": "Germany", "percentage": 2 },
+      { "location": "Other", "percentage": 5 }
+    ]
+  },
+  "packages": [
+    {
+      "name": "Single Post",
+      "description": "One piece of sponsored content on a single platform. Includes product integration, 1 round of revision, and usage rights for 30 days. Perfect for product launches or one-off promotions.",
+      "startingAt": "$300"
+    },
+    {
+      "name": "Multi-Platform Bundle",
+      "description": "Coordinated campaign across 3-4 platforms (Instagram Reel + TikTok + Story Series + Facebook). Consistent messaging with platform-native creative for each. Best value per impression.",
+      "startingAt": "$1,200"
+    },
+    {
+      "name": "Monthly Ambassador",
+      "description": "Ongoing brand integration across all platforms for one month. Includes 4 pieces of content, Story mentions, bio link placement, and monthly performance report. Ideal for building sustained brand awareness.",
+      "startingAt": "$2,500/month"
+    },
+    {
+      "name": "YouTube Deep Dive",
+      "description": "Dedicated long-form YouTube video (8-15 minutes) with in-depth product review, demo, or tutorial integration. Evergreen SEO-optimized content that continues to drive views and conversions for months.",
+      "startingAt": "$1,500"
+    },
+    {
+      "name": "UGC / Content Only",
+      "description": "High-quality video content created for your brand's own channels. No posting on our platforms required. Includes raw footage and edited versions. Great for brands wanting authentic creator-style content for ads.",
+      "startingAt": "$500"
+    }
+  ],
+  "pastPartners": [
+    { "name": "Coleman Outdoors", "result": "42K combined Reel views, 3.8% engagement rate" },
+    { "name": "Thousand Trails", "result": "23 promo code redemptions, 28K Reel views" },
+    { "name": "GoSun", "result": "Campaign in progress - TikTok video at 18K views in first week" },
+    { "name": "Bluetti Power", "result": "Campaign in progress" }
+  ]
+}

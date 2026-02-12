@@ -1,0 +1,23 @@
+{
+  "platform": "instagram",
+  "displayName": "Instagram",
+  "handle": "@kal.bog",
+  "url": "https://www.instagram.com/kal.bog",
+  "snapshotDate": "2026-02-10",
+  "followers": 176000,
+  "followersDelta": 3200,
+  "totalViews": 42500000,
+  "engagementRate": 4.2,
+  "postsCount": 1124,
+  "avgViewsPerPost": 37800,
+  "avgLikesPerPost": 4920,
+  "avgCommentsPerPost": 187,
+  "history": [
+    { "date": "2025-09-01", "followers": 158000, "views": 35200000 },
+    { "date": "2025-10-01", "followers": 162500, "views": 36800000 },
+    { "date": "2025-11-01", "followers": 166800, "views": 38400000 },
+    { "date": "2025-12-01", "followers": 170200, "views": 39700000 },
+    { "date": "2026-01-01", "followers": 172800, "views": 41100000 },
+    { "date": "2026-02-01", "followers": 176000, "views": 42500000 }
+  ]
+}

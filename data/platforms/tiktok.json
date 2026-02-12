@@ -1,0 +1,23 @@
+{
+  "platform": "tiktok",
+  "displayName": "TikTok",
+  "handle": "@alsokal",
+  "url": "https://www.tiktok.com/@alsokal",
+  "snapshotDate": "2026-02-10",
+  "followers": 40800,
+  "followersDelta": 1250,
+  "totalViews": 18740000,
+  "engagementRate": 6.8,
+  "postsCount": 487,
+  "avgViewsPerPost": 38400,
+  "avgLikesPerPost": 1870,
+  "avgCommentsPerPost": 84,
+  "history": [
+    { "date": "2025-09-01", "followers": 34200, "views": 14920000 },
+    { "date": "2025-10-01", "followers": 35800, "views": 15680000 },
+    { "date": "2025-11-01", "followers": 37100, "views": 16410000 },
+    { "date": "2025-12-01", "followers": 38400, "views": 17050000 },
+    { "date": "2026-01-01", "followers": 39550, "views": 17860000 },
+    { "date": "2026-02-01", "followers": 40800, "views": 18740000 }
+  ]
+}
